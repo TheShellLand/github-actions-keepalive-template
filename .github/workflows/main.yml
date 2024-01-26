@@ -13,8 +13,8 @@ jobs:
     name: Github Actions KeepAlive
     steps:
       - uses: actions/checkout@v3
-      - name: make commits
-        # Uses GitHub action defined in https://github.com/FredaXin/gitlit
+      - name: make commit
+        # Uses GitHub action defined in https://github.com/TheShellLand/github-actions-keepalive
         uses: TheShellLand/github-actions-keepalive@latest
         with:
           # Change to your GitHub username
